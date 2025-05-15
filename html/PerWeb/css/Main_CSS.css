@@ -1,0 +1,120 @@
+/*for Background video styling*/
+#myVideo{
+   width: 100vw;
+   height: 100vh;
+   object-fit: cover;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: -1;
+}
+/*Header Styling*/
+{
+	max-height: 150px;
+	margin: auto;
+}
+
+/*Main Body styling*/
+body { 
+		background-color: #333;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		max-width: 960px;
+		margin: auto;
+		padding: 0px;
+		}
+body::-webkit-scrollbar {
+    display: none;
+}
+/*Nav Bar Styling*/
+#navbarul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #141414;
+  opacity: 90%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+#navbarli {
+  float: left;
+}
+#navbarli #navbara {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbarli #navbara:hover {
+  background-color: #333;
+}
+.active{
+	background-color: #04AA6D;
+}
+#navbarli {
+  border-right: 1px solid #bbb;
+}
+#navbarli:last-child {
+  border-right: none;
+}
+
+/*info styling*/
+#info{
+		color: white; 
+		font-family: calibri, lato;
+		text-align: center;
+		font-size: 25px;
+}
+
+/*h2 Styling*/
+h2, h1{
+	color: white; 
+	font-family: calibri, lato;
+	text-align: center;
+}
+
+/*h3 styling*/
+h3{
+	background-color: #141414; 
+	font-family: calibri, lato;
+	color: white;
+	margin: auto;
+	border-radius: 25px;
+	text-align: center;
+	opacity: 90%;
+
+}
+
+/*p styling*/
+p{
+	color: white; font-family: calibri, lato;
+}
+
+
+/*ul styling*/
+ul, ol{
+	color: white; font-family: calibri, lato;
+}
+
+/* links styling */
+a:link, a:visited, a:hover, a:active{
+	color:white; font-family: calibri, lato;
+}
+
+/*footer*/
+#footer{
+		max-height: 50px;
+		margin: auto;
+		color: white; 
+		font-family:sans-serif, lato;
+		text-align: center;
+		font-size: 15px;
+		bottom: 0;
+		width: auto;
+}
